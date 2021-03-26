@@ -26,18 +26,18 @@ const HomeScreen = props => {
   );
 };
 
-export default HomeScreen;
+export {HomeScreen};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#cfd8dc',
+    backgroundColor: '#ffffff',
   },
   ImageContainer: {
     resizeMode: 'contain',
-    backgroundColor: '#cfd8dc',
+    backgroundColor: '#ffffff',
   },
   Image: {
     width: Dimensions.get('window').width * 0.5,
